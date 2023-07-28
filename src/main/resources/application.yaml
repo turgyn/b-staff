@@ -1,0 +1,18 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/komek
+        username: turgyn
+        password: turgyn
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate.ddl-auto: update
+    main:
+        allow-circular-references: true
+
+# App Properties
+app:
+    auth.jwt:
+        cookieName: komek
+        secret: komekSecretKey
+        expirationMs: 86400000
