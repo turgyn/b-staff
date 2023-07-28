@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KomekBackendApplication {
+public class BStaffApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KomekBackendApplication.class, args);
+        SpringApplication.run(BStaffApplication.class, args);
     }
 
 }
